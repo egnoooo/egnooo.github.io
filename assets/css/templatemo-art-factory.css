@@ -287,6 +287,51 @@ button.main-button:hover {
   text-align: center;
 }
 
+
+
+
+.grid {
+  align-items:center;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  justify-items:center
+}
+
+.imgNFT {
+  height:  15em;
+}
+
+.txtWallet {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color:  #f55858;
+  padding-top: 0.1em;
+}
+
+.mintNr {
+position: absolute;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #f55858;
+    right: 0.5em;
+    top: 0.5em;
+    background: #ffffffb3;
+    border-radius: 0.3em;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+}
+
+.itemGridWallet {
+  border: #f55858;
+  border-width: thin;
+    border-style: solid;
+    border-radius: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin: 1em;
+    position: relative;
+}
 /* 
 ---------------------------------------------
 header
